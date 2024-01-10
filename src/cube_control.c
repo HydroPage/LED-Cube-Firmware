@@ -9,7 +9,7 @@
 
 #define OUTPUT_ENABLE_DDR DDRB
 #define OUTPUT_ENABLE_PORT PORTB
-#define OE 2
+#define OE 0
 
 #define LATCH_DDR DDRB
 #define LATCH_PORT PORTB
