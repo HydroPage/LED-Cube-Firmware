@@ -63,10 +63,8 @@ int main(void)
     {
       spi_send_bytes(matrix[layer], NUM_ROWS);
 
-      disable_outputs();
       set_active_layer(layer);
       latch_layer_data();
-      enable_outputs();
     }
   }
 }
